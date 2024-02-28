@@ -3,7 +3,7 @@
 Deep Multi-Instance Contrastive Learning Framework Enhancing the Prediction of Cancer-Associated T Cell Receptors by Attention Strategy on Motifs
 ------------------------------
 
-DeepLION2 is an innovative deep multi-instance contrastive learning framework specifically designed to enhance cancer-associated T cell receptor (TCR) prediction. It setups a three-component workflow, comprising data preprocessing, TCR antigen-specificity extraction, and multi-instance learning. In the third part, DeepLION2 introduced a content-based sparse self-attention mechanism in conjunction with contrastive learning to effectively aggregate TCR features and embed the TCR repertoire. By considering the relationships among TCRs within the repertoire and the sparsity of caTCRs, it significantly enhanced the aggregation process, enabling accurate prediction of whether the TCR repertoire was cancerous or non-cancerous. For more details, please read our paper [`DeepLION2: Deep Multi-Instance Contrastive Learning Framework Enhancing the Prediction of Cancer-Associated T Cell Receptors by Attention Strategy on Motifs`](https://doi.org/10.3389/fgene.2022.860510).
+DeepLION2 is an innovative deep multi-instance contrastive learning framework specifically designed to enhance cancer-associated T cell receptor (TCR) prediction. It setups a three-component workflow, comprising data preprocessing, TCR antigen-specificity extraction, and multi-instance learning. In the third part, DeepLION2 introduced a content-based sparse self-attention mechanism in conjunction with contrastive learning to effectively aggregate TCR features and embed the TCR repertoire. By considering the relationships among TCRs within the repertoire and the sparsity of caTCRs, it significantly enhanced the aggregation process, enabling accurate prediction of whether the TCR repertoire was cancerous or non-cancerous. For more details, please read our paper [`DeepLION2: deep multi-instance contrastive learning framework enhancing the prediction of cancer-associated T cell receptors by attention strategy on motifs`](https://doi.org/10.3389/fimmu.2024.1345586).
 
 <p float="left">
   <img src="Figures/DeepLION2_workflow.png" width="781" height="646"/>
@@ -171,7 +171,9 @@ The prediction results are saved in `./Results/THCA_motifs/`
 
 ## Citation
 
-When using our results or modelling approach in a publication, please cite our paper ([https://doi.org/10.3389/fgene.2022.860510](https://doi.org/10.3389/fgene.2022.860510)):
+When using our results or modelling approach in a publication, please cite our papers (DeepLION2: [https://doi.org/10.3389/fimmu.2024.1345586](https://doi.org/10.3389/fimmu.2024.1345586); DeepLION: [https://doi.org/10.3389/fgene.2022.860510](https://doi.org/10.3389/fgene.2022.860510)):
+
+>Qian X, Yang G, Li F, Zhang X, Zhu X, Lai X, Xiao X, Wang T and Wang J (2024) DeepLION2: deep multi-instance contrastive learning framework enhancing the prediction of cancer-associated T cell receptors by attention strategy on motifs. *Front. Immunol.* 15:1345586. doi: 10.3389/fimmu.2024.1345586
 
 >Xu Y, Qian X, Zhang X, Lai X, Liu Y and Wang J (2022) DeepLION: Deep Multi-Instance Learning Improves the Prediction of Cancer-Associated T Cell Receptors for Accurate Cancer Detection. *Front. Genet.* 13:860510. doi: 10.3389/fgene.2022.860510
 
